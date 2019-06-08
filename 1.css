@@ -1,0 +1,148 @@
+h1 {
+  margin-left: 300px;
+  font-size: 40px;
+  margin-top: 5%;
+}
+
+h2 {
+margin-left: 300px;
+font-size: 17px;
+margin-top: 2%;
+opacity: 0.4;
+margin-right: 200px;
+}
+
+.publicprivateswitch {
+position: relative; 
+left: 23%;
+width: 90px;
+-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.publicprivateswitch-checkbox {
+display: none;
+}
+.publicprivateswitch-label {
+display: block; overflow: hidden; cursor: pointer;
+border: 2px solid #999999; border-radius: 20px;
+}
+.publicprivateswitch-inner {
+display: block; width: 200%; margin-left: -100%;
+transition: margin 0.3s ease-in 0s;
+}
+.publicprivateswitch-inner:before, .publicprivateswitch-inner:after {
+display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+box-sizing: border-box;
+}
+.publicprivateswitch-inner:before {
+content: "Public";
+padding-left: 10px;
+background-color: #34A7C1; color: #FFFFFF;
+}
+.publicprivateswitch-inner:after {
+content: "Private";
+padding-right: 10px;
+background-color: #EEEEEE; color: #999999;
+text-align: right;
+}
+.onoffswitch-switch {
+display: block; width: 18px; margin: 6px;
+background: #FFFFFF;
+position: absolute; top: 0; bottom: 0;
+right: 56px;
+border: 2px solid #999999; border-radius: 20px;
+transition: all 0.3s ease-in 0s; 
+}
+.publicprivateswitch-checkbox:checked + .publicprivateswitch-label .publicprivateswitch-inner {
+margin-left: 0;
+}
+.publicprivateswitch-checkbox:checked + .publicprivateswitch-label .publicprivateswitch-switch {
+right: 0px; 
+}
+h3 {
+margin-left: 400px;
+opacity: 0.7;
+margin-top: -2%;
+}
+h4{
+margin-left: 290px;
+font-size: 17px;
+margin-top: 2%;
+opacity: 2.5;
+margin-right: 200px; 
+}
+.u{
+position: absolute;
+right: 20%;
+top: 45%;
+height: 5%;
+width: 55%;
+font-weight: 100;
+padding-left: 20px;
+font-family:"lato";
+font-size: 12px;
+opacity: 2.5;
+color: #2C2D30;
+}
+
+p{
+margin-left: 290px;
+font-size: 15px;
+margin-top: 4%;
+opacity: 0.5;
+margin-right: 200px; 
+}
+h5{
+margin-left: 290px;
+font-size: 17px;
+margin-top: 0.5%;
+opacity: 2.5;
+margin-right: 200px; 
+}
+.p{
+position: absolute;
+right: 20%;
+top: 61%;
+height: 5%;
+width: 55%;
+font-weight: 100;
+padding-left: 20px;
+font-family:"lato";
+font-size: 12px;
+opacity: 2.5;
+color: #2C2D30;
+}
+p1{
+margin-left: 290px;
+font-size: 15px;
+margin-top: 2%;
+opacity: 0.5;
+margin-right: 200px; 
+}
+h6{
+margin-left: 290px;
+font-size: 17px;
+margin-top: 2%;
+opacity: 2.5;
+margin-right: 200px; 
+}
+.q{
+position: absolute;
+right: 20%;
+top: 75%;
+height: 5%;
+width: 55%;
+font-weight: 100;
+padding-left: 20px;
+font-family:"lato";
+font-size: 12px;
+opacity: 2.5;
+color: #2C2D30;
+}
+p2{
+margin-left: 290px;
+font-size: 15px;
+margin-top: 2%;
+opacity: 0.5;
+margin-right: 200px; 
+}
